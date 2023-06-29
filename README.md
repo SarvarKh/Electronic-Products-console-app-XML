@@ -1,0 +1,63 @@
+# XML-with-Java
+This is a project to practice XML, XSLT, XPATH, DTD, XSD, DOM, SAX, their parsing and integration with Java to transform XML data to various types/files.
+
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap">
+<div align="center">
+  <img src="image/1_order.png?raw=true" width="90%" height="auto"/>
+  <img src="image/2_my_orders.png?raw=true" width="45%" height="auto"/>
+  <img src="image/3_invoiced.png?raw=true" width="45%" height="auto"/>
+  <img src="image/4_order_details_add_assessment.png?raw=true" width="45%" height="auto"/>
+  <img src="image/5_order_details_get_assessment.png?raw=true" width="45%" height="auto"/>
+  <img src="image/6_add_transport.png?raw=true" width="90%" height="auto"/>
+</div>
+</div>
+
+
+## Getting Started
+To get started with this project, follow these steps:
+
+- Clone the repository to your local machine.
+- Install in pom.xml file.
+- Run the application using your IDEA's run button on Main class.
+- Console window will be opened.
+- you can play around with this interactive console to retrieve all inventories or by their parameters;
+
+## Features
+This project includes the following features:
+
+- Validate XML file with DTD or XSD.
+- Transform content data of XML file into separate Text file using XSLT.
+
+
+## Technologies Used
+This project was built using the following technologies:
+
+- Java 17.0.2 (Servlets, Filters, Listeners)
+- XML, XSLT, XPATH, DTD, XSD, DOM, SAX
+- Maven
+
+## Authors
+
+👤 **Sarvar Khalimov**
+
+- GitHub: [SarvarKh](https://github.com/SarvarKh)
+- Twitter: [KhalimovSarvar](https://twitter.com/KhalimovSarvar)
+- LinkedIn: [Sarvar-Khalimov](https://www.linkedin.com/in/sarvar-khalimov/)
+
+
+## Contributing
+If you would like to contribute to this project, please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them.
+- Push your changes to your fork.
+- Submit a pull request.
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## License
+This project is [MIT](./MIT.md) licensed.
