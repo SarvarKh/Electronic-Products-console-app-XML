@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xml" href="computer_parts_transform.xsl" version="1.0"?>
+
+<categories>
+    <category type="GPU">
+        <products>
+            <product>
+                <name>ASUS TUF</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>519.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>GIGABYTE WINDFORCE GeForce</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>599.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>51Risc AMD Radeon</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>85.00</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>MSI Ventus GeForce</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>279.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>ASRock Radeon</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>199.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+        </products>
+    </category>
+    <category type="CPU">
+        <products>
+            <product>
+                <name>AMD Ryzen 9 7950X3D</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>699.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>Intel Core i7-12700KF</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>299.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>AMD Ryzen 7 7800X3D</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>448.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>AMD Ryzen 5 7600</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>223.00</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>Intel Core i9-12900K</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>439.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+        </products>
+    </category>
+    <category type="SSD">
+        <products>
+            <product>
+                <name>Crucial P3 Plus 1TB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>61.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>Team Group EX2 2.5" 512GB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>23.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>Nextorage Japan Internal SSD 4TB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>289.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>ADATA PREMIUM SSD FOR PS5</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>99.99</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>AITC KINGSMAN SK150 2.5" 1TB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>38.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+        </products>
+    </category>
+    <category type="RAM">
+        <products>
+            <product>
+                <name>CORSAIR Vengeance</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>97.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>G.SKILL Trident Z5</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>119.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="false"/>
+            </product>
+            <product>
+                <name>Team T-FORCE VULCAN</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>59.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>OLOy Blade RGB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>209.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+            <product>
+                <name>GeIL ORION RGB</name>
+                <price>
+                    <currency>USD</currency>
+                    <amount>109.79</amount>
+                </price>
+                <availability>55</availability>
+                <onSales>8%</onSales>
+                <recommended value="true"/>
+            </product>
+        </products>
+    </category>
+</categories>
+
