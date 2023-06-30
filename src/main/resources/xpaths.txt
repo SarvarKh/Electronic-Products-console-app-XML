@@ -11,4 +11,4 @@
 /categories/category/products/product[onSales='Y']
 
 <!--        The first product of each category.-->
-/categories/category/products/product[1]
+/categories/category/products/product[1]/name/.

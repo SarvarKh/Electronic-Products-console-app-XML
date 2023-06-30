@@ -13,7 +13,7 @@
                     <amount>519.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>2%</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -33,7 +33,7 @@
                     <amount>85.00</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>3%</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -53,7 +53,7 @@
                     <amount>199.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>5%</onSales>
                 <recommended value="false"/>
             </product>
         </products>
@@ -77,7 +77,7 @@
                     <amount>299.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>12%</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -121,7 +121,7 @@
                     <amount>61.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>9%</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -141,7 +141,7 @@
                     <amount>289.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>50%</onSales>
                 <recommended value="false"/>
             </product>
             <product>
