@@ -2,11 +2,12 @@
 <!--<!DOCTYPE categories SYSTEM "computer_parts.dtd">-->
 <?xml-stylesheet type="text/xml" href="computer_parts.xsl" version="1.0"?>
 
-<categories>
+
+<categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="computer_parts.xsd">
     <category type="GPU">
         <products>
             <product>
-                <name>ASUS TUF</name>
+                <name>ASUS</name>
                 <price>
                     <currency>USD</currency>
                     <amount>519.99</amount>

@@ -30,13 +30,13 @@ public class SAXProductHandler extends DefaultHandler {
 
     @Override
     public void startDocument() throws SAXException {
-//        System.out.println("Start document");
+//        System.out.println("Start reading document");
         data = new ArrayList<>();
     }
 
     @Override
     public void endDocument() throws SAXException {
-        System.out.println("End document");
+//        System.out.println("End reading document");
     }
 
     @Override
