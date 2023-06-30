@@ -37,12 +37,6 @@ public class ReadXMLWithSAX {
             System.out.println("=> XML file is not valid: " + e.getMessage());
         }
 
-        // Parse XML file
-        SAXProductHandler saxHandler = new SAXProductHandler();
-        List<Product> data = saxHandler.readDataFromXML(filename);
-        System.out.println("Number of products: " + data.size());
-
-
         // Transform XML into plain text file
         TransformerFactory factory = TransformerFactory.newInstance();
         Transformer transformer = factory.newTransformer(new StreamSource(DATADIR + "computer_parts.xsl"));
