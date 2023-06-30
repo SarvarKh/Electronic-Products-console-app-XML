@@ -1,0 +1,14 @@
+<!--Select all categories’ names.-->
+/categories/category/@type
+
+<!--        All products’ names.-->
+/categories/category/products/product/name/.
+
+<!--        All products with a price higher than given X.-->
+/categories/category/products/product/price[amount>X]
+
+<!--        All products with attribute “on sale” = “Y”.-->
+/categories/category/products/product[onSales='Y']
+
+<!--        The first product of each category.-->
+/categories/category/products/product[1]

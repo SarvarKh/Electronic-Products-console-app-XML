@@ -1,6 +1,9 @@
 package org.example;
 
+import org.example.controller.ConsoleController;
+import org.example.dao.SAXProductHandler;
 import org.example.dto.Product;
+import org.example.service.XmlValidator;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -11,13 +14,23 @@ import java.io.FileOutputStream;
 import java.util.List;
 
 public class ReadXMLWithSAX {
+    public static final String DATADIR = "src/main/resources/";
+
     public static void main(String[] args) throws Exception {
-        String filename = DataProvider.DATADIR + "computer_parts.xml";
+        System.out.println("Starting application...\n-=-=-=-=-*****-=-=-=-=-");
+        String inputXml = ConsoleController.getFileNameFromConsole(".xml");
+        String filename = DATADIR + inputXml; //"computer_parts.xml";
+
+        // Validate XML against DTD
+//        ConsoleController.validateXmlFileAgainstDTD(filename);
+        boolean valid = new XmlValidator(inputXml, inputXml.replaceAll(".xml", ".dtd")).isValid();
+        System.out.println("Boolean: " +valid);
 
         // Parse XML file
         SAXProductHandler saxHandler = new SAXProductHandler();
         List<Product> data = saxHandler.readDataFromXML(filename);
-        System.out.println("Number of products: " + data.size());
+        boolean dataExist = ConsoleController.validateXmlFile(data, ".xml");
+//        System.out.println("Number of products: " + data.size());
 
         // Print products
         for (Product product: data) {
@@ -26,7 +39,7 @@ public class ReadXMLWithSAX {
 
         // Transform XML into plain text file
         TransformerFactory factory = TransformerFactory.newInstance();
-        Transformer transformer = factory.newTransformer(new StreamSource(DataProvider.DATADIR + "computer_parts_transform.xsl"));
-        transformer.transform(new StreamSource(DataProvider.DATADIR + "computer_parts.xml"), new StreamResult(new FileOutputStream(new File("output.txt"))));
+        Transformer transformer = factory.newTransformer(new StreamSource(DATADIR + "computer_parts.xsl"));
+        transformer.transform(new StreamSource(DATADIR + "computer_parts.xml"), new StreamResult(new FileOutputStream(new File("output.txt"))));
     }
 }

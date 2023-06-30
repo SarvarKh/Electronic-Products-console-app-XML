@@ -1,7 +1,7 @@
 <categories
         xmlns="http://localhost:8080/"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://localhost:8080/ computer_parts_xsd.xsd">
+        xsi:schemaLocation="http://localhost:8080/ computer_parts.xsd">
     <category type="GPU">
         <products>
             <product>

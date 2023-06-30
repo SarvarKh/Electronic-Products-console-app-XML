@@ -1,0 +1,17 @@
+<!ELEMENT categories (category+) >
+<!ELEMENT category (products+)>
+<!ELEMENT products (product+)>
+<!ELEMENT product (name, price, availability, onSales, recommended)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (currency, amount)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT onSales (#PCDATA)>
+<!ELEMENT recommended EMPTY>
+
+<!ATTLIST category type (GPU | CPU | SSD | RAM) #REQUIRED>
+<!ATTLIST price currency CDATA #FIXED "USD">
+<!ATTLIST recommended value (true | false) #REQUIRED>
+
+<!ENTITY USD "$">
