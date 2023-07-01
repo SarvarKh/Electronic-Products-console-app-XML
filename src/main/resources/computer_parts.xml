@@ -11,7 +11,7 @@
                     <amount>519.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>2%</onSales>
+                <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -31,7 +31,7 @@
                     <amount>85.00</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>3%</onSales>
+                <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -75,7 +75,7 @@
                     <amount>299.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>12%</onSales>
+                <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
             <product>
@@ -105,7 +105,7 @@
                     <amount>439.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>Y</onSales>
                 <recommended value="true"/>
             </product>
         </products>
@@ -129,7 +129,7 @@
                     <amount>23.99</amount>
                 </price>
                 <availability>55</availability>
-                <onSales>8%</onSales>
+                <onSales>Y</onSales>
                 <recommended value="true"/>
             </product>
             <product>
