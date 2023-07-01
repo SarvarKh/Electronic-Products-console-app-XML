@@ -14,7 +14,9 @@ import java.util.List;
 
 public class ConsoleController {
     public static String getFileNameFromConsole(String fileType) throws IOException {
-        System.out.println("Please enter file name with " + fileType + " extension (e.g. computer_parts.xml)");
+        System.out.println("Please enter file name with " + fileType + " extension (e.g. computer_parts"+
+                (fileType.equals(".xsl") ? "_transform_1.xsl" : fileType)
+                +")");
 
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(System.in));
@@ -69,4 +71,5 @@ public class ConsoleController {
         result.add("/categories/category/products/product[1]/name/.");
         return result;
     }
+
 }
