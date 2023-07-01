@@ -21,6 +21,9 @@
     </xsl:template>
     <xsl:template match="product">
         <li>
+            <xsl:if test="onSales = 'Y'">
+                [ON SALE!]
+            </xsl:if>
             <xsl:value-of select="name/text()" />
         </li>
         <li>
