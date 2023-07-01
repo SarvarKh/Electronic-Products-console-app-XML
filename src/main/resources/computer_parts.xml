@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="computer_parts_transform_2.xsl" version="1.0"?>
+<?xml-stylesheet type="text/xml" href="computer_parts_transform_1.xsl" version="1.0"?>
 
 <categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="computer_parts.xsd">
     <category type="GPU">
@@ -10,7 +10,7 @@
                     <currency>USD</currency>
                     <amount>519.99</amount>
                 </price>
-                <availability>55</availability>
+                <availability>1</availability>
                 <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
@@ -30,7 +30,7 @@
                     <currency>USD</currency>
                     <amount>85.00</amount>
                 </price>
-                <availability>55</availability>
+                <availability>4</availability>
                 <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
@@ -50,7 +50,7 @@
                     <currency>USD</currency>
                     <amount>199.99</amount>
                 </price>
-                <availability>55</availability>
+                <availability>3</availability>
                 <onSales>5%</onSales>
                 <recommended value="false"/>
             </product>
@@ -74,7 +74,7 @@
                     <currency>USD</currency>
                     <amount>299.99</amount>
                 </price>
-                <availability>55</availability>
+                <availability>3</availability>
                 <onSales>Y</onSales>
                 <recommended value="false"/>
             </product>
@@ -118,7 +118,7 @@
                     <currency>USD</currency>
                     <amount>61.99</amount>
                 </price>
-                <availability>55</availability>
+                <availability>1</availability>
                 <onSales>9%</onSales>
                 <recommended value="false"/>
             </product>
@@ -128,7 +128,7 @@
                     <currency>USD</currency>
                     <amount>23.99</amount>
                 </price>
-                <availability>55</availability>
+                <availability>2</availability>
                 <onSales>Y</onSales>
                 <recommended value="true"/>
             </product>

@@ -21,7 +21,23 @@
                             <xsl:sort select="price/amount" data-type="number" order="descending"/>
                             <tr>
                                 <td><xsl:value-of select="ancestor::category/@type"/></td>
-                                <td><xsl:value-of select="name/."/></td>
+                                <td>
+                                    <xsl:if test="onSales = 'Y'">
+                                        <span style="color: red;">[ON SALE!]</span>
+                                    </xsl:if>
+                                    <xsl:value-of select="name/."/>
+                                    <xsl:choose>
+                                        <xsl:when test="availability &lt; 5">
+                                            <span style="color: red;">[RARE!]</span>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <span style="color: red;">[PLENTY!]</span>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+<!--                                    <xsl:if test="availability &gt; 10">-->
+<!--                                        <span style="color: yellow;">[RARE!]</span>-->
+<!--                                    </xsl:if>-->
+                                </td>
                                 <td><xsl:value-of select="price/currency/."/></td>
                                 <td><xsl:value-of select="price/amount/."/></td>
                                 <td><xsl:value-of select="availability/."/></td>
