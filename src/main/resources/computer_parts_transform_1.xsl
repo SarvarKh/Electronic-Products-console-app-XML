@@ -35,8 +35,12 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </td>
-                                <td><xsl:value-of select="price/currency/."/></td>
-                                <td><xsl:value-of select="price/amount/."/></td>
+                                <td>
+                                    <xsl:apply-templates select="price/currency"/>
+                                </td>
+                                <td>
+                                    <xsl:apply-templates select="price/amount"/>
+                                </td>
                                 <td><xsl:value-of select="availability/."/></td>
                                 <td><xsl:value-of select="onSales/."/></td>
                                 <td><xsl:value-of select="recommended/@value"/></td>
@@ -46,5 +50,11 @@
                 </table>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="price/currency">
+        <xsl:value-of select="text()"/>
+    </xsl:template>
+    <xsl:template match="price/amount">
+        <xsl:value-of select="text()"/>
     </xsl:template>
 </xsl:stylesheet>
