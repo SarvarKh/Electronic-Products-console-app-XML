@@ -3,12 +3,6 @@ package org.example;
 import org.example.controller.ConsoleController;
 import org.example.service.XMLService;
 
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.stream.StreamSource;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.List;
 
 

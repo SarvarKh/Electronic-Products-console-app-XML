@@ -18,6 +18,7 @@
                     </tr>
                     <xsl:for-each select="categories/category">
                         <xsl:for-each select="products/product">
+                            <xsl:sort select="price/amount" data-type="number" order="descending"/>
                             <tr>
                                 <td><xsl:value-of select="ancestor::category/@type"/></td>
                                 <td><xsl:value-of select="name/."/></td>
