@@ -33,10 +33,11 @@ public class ReadXMLWithSAX {
         // 4.2 Transform XML into plain text files based on Xpath
         XMLService.transformXMLtoTextBasedOnXPath(xPaths);
 
-        // 5. Get XSL file name from console
-        String xslFileName = ConsoleController.getFileNameFromConsole(".xsl");
-        String xslFileNamePath = DATADIR + xslFileName; // computer_parts_transform.xsl
-//        System.out.println("You selected: " + xslFileName);
+        // 5.1 Get XSL file name from console
+        String xslFileName = ConsoleController.getFileNameFromConsole(".xsl"); // computer_parts_transform_1.xsl
+
+        // 5.2 Transform XML into plain text files based on XSL
+        XMLService.transformXMLtoAnotherFileBasedOnXSL(xslFileName);
 
         System.out.println("Ending application...\n-=-=-=-=-*****-=-=-=-=-");
     }
