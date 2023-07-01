@@ -34,9 +34,6 @@
                                             <span style="color: red;">[PLENTY!]</span>
                                         </xsl:otherwise>
                                     </xsl:choose>
-<!--                                    <xsl:if test="availability &gt; 10">-->
-<!--                                        <span style="color: yellow;">[RARE!]</span>-->
-<!--                                    </xsl:if>-->
                                 </td>
                                 <td><xsl:value-of select="price/currency/."/></td>
                                 <td><xsl:value-of select="price/amount/."/></td>
