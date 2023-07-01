@@ -16,22 +16,28 @@ public class ReadXMLWithSAX {
     public static final String DATADIR = "src/main/resources/";
 
     public static void main(String[] args) throws Exception {
-        // get File Name From Console
+        // 1. Get file name from console
         System.out.println("Starting application...\n-=-=-=-=-*****-=-=-=-=-");
-        String inputXml = ConsoleController.getFileNameFromConsole(".xml");
-        String filename = DATADIR + inputXml; //"computer_parts.xml";
+        String xmlFileName = ConsoleController.getFileNameFromConsole(".xml");
+        String xmlFileNamePath = DATADIR + xmlFileName; // computer_parts.xml
 
-        // Validate XML against XSD
-        ConsoleController.validateXMLagainstXSD(filename);
+        // 2. Validate XML against XSD
+        ConsoleController.validateXMLagainstXSD(xmlFileNamePath);
 
-        // get XPath names
-        List<String> xPaths = ConsoleController.getXPathNames();
-
-        // Transform XML into plain text file
+        // 3. Transform XML into plain text file
         XMLService.transformXMLtoText(DATADIR + "computer_parts.xsl", DATADIR + "computer_parts.xml");
 
-        // Transform XML into plain text files based on Xpath
+        // 4.1 Get XPath names
+        List<String> xPaths = ConsoleController.getXPathNames();
+
+        // 4.2 Transform XML into plain text files based on Xpath
         XMLService.transformXMLtoTextBasedOnXPath(xPaths);
+
+        // 5. Get XSL file name from console
+        String xslFileName = ConsoleController.getFileNameFromConsole(".xsl");
+        String xslFileNamePath = DATADIR + xslFileName; // computer_parts_transform.xsl
+//        System.out.println("You selected: " + xslFileName);
+
         System.out.println("Ending application...\n-=-=-=-=-*****-=-=-=-=-");
     }
 }
