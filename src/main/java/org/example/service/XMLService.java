@@ -51,27 +51,6 @@ public class XMLService {
         System.out.println("=> output.txt files have been created in project's root directory");
     }
 
-//    public static void transformXMLtoAnotherFileBasedOnXSL(String xslFileName) throws TransformerException, FileNotFoundException {
-//        String xslFilePath = "src/main/resources/"+xslFileName;
-//        String xmlFilePath = "src/main/resources/computer_parts.xml";
-//        TransformerFactory factory = TransformerFactory.newInstance();
-//        Transformer transformer = factory.newTransformer(new StreamSource(xslFilePath));
-//        String outputFile = "outputOf"+xslFileName.replaceAll(".xsl", "")+".txt";
-//        transformer.transform(new StreamSource(xmlFilePath), new StreamResult(new FileOutputStream(new File(outputFile))));
-//        System.out.println("=> "+ xslFileName +" have been transformed into plain text format (.txt).");
-//        System.out.println("=> "+ outputFile +" file has been created in project's root directory");
-//    }
-//    public static void transformXMLtoAnotherFileBasedOnXSL(String xslFileName, String outputType) throws TransformerException, FileNotFoundException {
-//        String xslFilePath = "src/main/resources/"+xslFileName;
-//        String xmlFilePath = "src/main/resources/computer_parts.xml";
-//        TransformerFactory factory = TransformerFactory.newInstance();
-//        Transformer transformer = factory.newTransformer(new StreamSource(xslFilePath));
-//        transformer.setParameter("outputType", outputType);
-//        String outputFile = "outputOf"+xslFileName.replaceAll(".xsl", "")+"."+outputType;
-//        transformer.transform(new StreamSource(xmlFilePath), new StreamResult(new FileOutputStream(new File(outputFile))));
-//        System.out.println("=> "+ xslFileName +" have been transformed into plain text format (.txt).");
-//        System.out.println("=> "+ outputFile +" file has been created in project's root directory");
-//    }
     public static void transformXMLtoAnotherFileBasedOnXSL(String xslFileName) throws TransformerException, FileNotFoundException {
         String xslFilePath = "src/main/resources/"+xslFileName;
         String xmlFilePath = "src/main/resources/computer_parts.xml";
