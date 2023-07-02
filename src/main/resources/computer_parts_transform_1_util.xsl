@@ -12,6 +12,7 @@
                 <table border="1">
                     <tr bgcolor="#9acd32">
                         <th>Category</th>
+                        <th>No.</th>
                         <th>Name</th>
                         <th>Currency</th>
                         <th>Amount</th>
@@ -42,9 +43,15 @@
         <tr>
             <td><xsl:value-of select="ancestor::category/@type"/></td>
             <td>
+                <xsl:number format="1. "/>
+            </td>
+            <td>
                 <xsl:if test="onSales = 'Y'">
                     <span style="color: red;">[ON SALE!]</span>
                 </xsl:if>
+                    <xsl:if test="not(name)">
+                        <xsl:message terminate="yes">Error: Product without a name detected</xsl:message>
+                    </xsl:if>
                 <xsl:value-of select="name/."/>
                 <xsl:choose>
                     <xsl:when test="availability &lt; 5">
