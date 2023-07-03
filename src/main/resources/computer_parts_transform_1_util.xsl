@@ -44,6 +44,34 @@
                     </tr>
                     <xsl:apply-templates select="categories"/>
                 </table>
+                <br/>
+                <ul>
+                    <li>
+                        Total price of all products:
+                        <xsl:value-of select="format-number(sum(//amount),'$#,###.00')"/>
+                    </li>
+                    <li>
+                        Total price of all products for each category:
+                    </li>
+                    <li>
+                        Total count of all products:
+                    </li>
+                    <li>
+                        Total count of all products for each category:
+                    </li>
+                    <li>
+                        Total count of Intel products:
+                    </li>
+                    <li>
+                        Total count of AMD products:
+                    </li>
+                    <li>
+                        Total count of products containing “NVMe” text in their names:
+                    </li>
+                    <li>
+                        Total count of products with names starting with “SSD”:
+                    </li>
+                </ul>
             </body>
         </html>
     </xsl:template>
