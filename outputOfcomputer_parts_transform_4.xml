@@ -1,282 +1,222 @@
 <products>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ASUS</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>519.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>GPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GIGABYTE WINDFORCE GeForce</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>599.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>GPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">51Risc AMD Radeon</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>85.00</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>GPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">MSI Ventus GeForce</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>279.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>GPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ASRock Radeon</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>199.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>GPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 9 7950X3D</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>699.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>CPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intel Core i7-12700KF</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>299.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">12%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>CPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 7 7800X3D</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>448.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>CPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 5 7600</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>223.00</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>CPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intel Core i9-12900K</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>439.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>CPU</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Crucial P3 Plus 1TB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>61.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>SSD</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Team Group EX2 2.5" 512GB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>23.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>SSD</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Nextorage Japan Internal SSD 4TB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>289.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">50%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>SSD</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ADATA PREMIUM SSD FOR PS5</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>99.99</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>SSD</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AITC KINGSMAN SK150 2.5" 1TB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>38.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>SSD</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CORSAIR Vengeance</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>97.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>RAM</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">G.SKILL Trident Z5</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>119.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
-        <category>RAM</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Team T-FORCE VULCAN</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>59.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>RAM</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">OLOy Blade RGB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>209.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>RAM</category>
-    </product>
-    <product>
-        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GeIL ORION RGB</name>
-        <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                                
-            <currency>USD</currency>
-                                
-            <amount>109.79</amount>
-                            
-        </price>
-        <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
-        <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
-        <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
-        <category>RAM</category>
-    </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ASUS</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>519.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>GPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GIGABYTE WINDFORCE GeForce</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>599.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>GPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">51Risc AMD Radeon</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>85.00</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>GPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">MSI Ventus GeForce</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>279.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>GPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ASRock Radeon</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>199.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>GPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 9 7950X3D</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>699.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>CPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intel Core i7-12700KF</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>299.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>CPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 7 7800X3D</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>448.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>CPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AMD Ryzen 5 7600</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>223.00</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>CPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intel Core i9-12900K</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>439.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>CPU</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Crucial P3 Plus 1TB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>61.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>SSD</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Team Group EX2 2.5" 512GB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>23.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>SSD</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Nextorage Japan Internal SSD 4TB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>289.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">50%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>SSD</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ADATA PREMIUM SSD FOR PS5</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>99.99</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>SSD</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AITC KINGSMAN SK150 2.5" 1TB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>38.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>SSD</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CORSAIR Vengeance</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>97.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>RAM</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">G.SKILL Trident Z5</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>119.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="false"/>
+      <category>RAM</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Team T-FORCE VULCAN</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>59.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>RAM</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">OLOy Blade RGB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>209.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>RAM</category>
+   </product>
+   <product>
+      <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GeIL ORION RGB</name>
+      <price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <currency>USD</currency>
+         <amount>109.79</amount>
+      </price>
+      <availability xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">55</availability>
+      <onSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8%</onSales>
+      <recommended xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true"/>
+      <category>RAM</category>
+   </product>
 </products>

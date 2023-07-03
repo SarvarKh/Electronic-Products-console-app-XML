@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Transform the initial file into HTML table.-->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet  version="2.0"
+                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 exclude-result-prefixes="xsi"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:my="http://example.com/my-namespace">
+    <xsl:function name="my:color-product-name" as="element()">
+        <xsl:param name="item" as="xs:string"/>
+        <xsl:variable name="color">
+            <xsl:choose>
+                <xsl:when test="contains($item, 'Intel')">blue</xsl:when>
+                <xsl:when test="contains($item, 'AMD')">red</xsl:when>
+                <xsl:otherwise>black</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:element name="span">
+            <xsl:attribute name="style">
+                <xsl:value-of select="concat('color:', $color)"/>
+            </xsl:attribute>
+            <xsl:value-of select="$item"/>
+        </xsl:element>
+    </xsl:function>
+
     <xsl:param name="outputType" select="html"/>
     <xsl:attribute-set name="category-attrs">
         <xsl:attribute name="products"></xsl:attribute>
@@ -47,18 +69,19 @@
             </td>
             <td>
                 <xsl:if test="onSales = 'Y'">
-                    <span style="color: red;">[ON SALE!]</span>
+                    <span style="color: gray;">[ON SALE!]</span>
                 </xsl:if>
                     <xsl:if test="not(name)">
                         <xsl:message terminate="yes">Error: Product without a name detected</xsl:message>
                     </xsl:if>
-                <xsl:value-of select="name/."/>
+                <xsl:variable name="product-name" select="name/."/>
+                <xsl:sequence select="my:color-product-name($product-name)"/>
                 <xsl:choose>
                     <xsl:when test="availability &lt; 5">
-                        <span style="color: red;">[RARE!]</span>
+                        <span style="color: gray;">[RARE!]</span>
                     </xsl:when>
                     <xsl:otherwise>
-                        <span style="color: red;">[PLENTY!]</span>
+                        <span style="color: gray;">[PLENTY!]</span>
                     </xsl:otherwise>
                 </xsl:choose>
             </td>
@@ -80,4 +103,9 @@
     <xsl:template match="price/amount">
         <xsl:value-of select="text()"/>
     </xsl:template>
+
+<!--    <xsl:function name="my-function">-->
+<!--        <xsl:param name="input"/>-->
+<!--        <xsl:value-of select="concat('My message is: ', $input)"/>-->
+<!--    </xsl:function>-->
 </xsl:stylesheet>
