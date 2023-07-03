@@ -55,9 +55,6 @@
                         <xsl:value-of select="count(//product)"/>
                     </li>
                     <li>
-                        Total count of all products for each category:
-                    </li>
-                    <li>
                         Total count of Intel products:
                     </li>
                     <li>
@@ -91,6 +88,13 @@
                 <xsl:variable name="product-prices" select="product/price/amount"/>
                 Total price of all products for each category:
                 <strong><xsl:value-of select="format-number(sum($product-prices),'$#,###.00')"/></strong>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <xsl:variable name="product" select="product/name"/>
+                Total count of all products for each category:
+                <strong><xsl:value-of select="count($product)"/></strong>
             </td>
         </tr>
     </xsl:template>
