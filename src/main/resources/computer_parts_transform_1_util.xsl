@@ -52,6 +52,7 @@
                     </li>
                     <li>
                         Total count of all products:
+                        <xsl:value-of select="count(//product)"/>
                     </li>
                     <li>
                         Total count of all products for each category:
