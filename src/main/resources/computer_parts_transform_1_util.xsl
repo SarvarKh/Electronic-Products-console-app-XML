@@ -51,9 +51,6 @@
                         <xsl:value-of select="format-number(sum(//amount),'$#,###.00')"/>
                     </li>
                     <li>
-                        Total price of all products for each category:
-                    </li>
-                    <li>
                         Total count of all products:
                     </li>
                     <li>
@@ -88,6 +85,13 @@
     </xsl:template>
     <xsl:template match="products">
         <xsl:apply-templates select="product"/>
+        <tr>
+            <td colspan="8">
+                <xsl:variable name="product-prices" select="product/price/amount"/>
+                Total price of all products for each category:
+                <strong><xsl:value-of select="format-number(sum($product-prices),'$#,###.00')"/></strong>
+            </td>
+        </tr>
     </xsl:template>
     <xsl:template match="product">
         <tr>
