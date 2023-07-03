@@ -55,10 +55,14 @@
                         <xsl:value-of select="count(//product)"/>
                     </li>
                     <li>
+                        <xsl:variable name="intel-products" select="//product/name[contains(., 'Intel')]"/>
                         Total count of Intel products:
+                        <xsl:value-of select="count($intel-products)"/>
                     </li>
                     <li>
+                        <xsl:variable name="amd-products" select="//product/name[contains(., 'AMD')]"/>
                         Total count of AMD products:
+                        <xsl:value-of select="count($amd-products)"/>
                     </li>
                     <li>
                         Total count of products containing “NVMe” text in their names:
