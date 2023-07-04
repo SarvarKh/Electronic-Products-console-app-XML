@@ -1,4 +1,4 @@
-# XML-with-Java
+# Electronic-Products-console-app-XML
 This is a console application project based on Electronic Products XML data. It can validate, style, transform, query data from database.
 
 ## Screenshots
@@ -30,6 +30,7 @@ This project includes the following features:
 
 - Validate XML file with DTD or XSD.
 - Transform content data of XML file into separate Text file using XSLT.
+- XQuery data from Postgresql.
 
 
 ## Technologies Used
@@ -38,6 +39,7 @@ This project was built using the following technologies:
 - Java 17.0.2 (Servlets, Filters, Listeners)
 - XML, XSLT, XPATH, DTD, XSD, DOM, SAX
 - Maven
+- Postgresql
 - BaseX (XML database engine and a highly compliant XQuery 3.1 processor)
 - Saxon-HE (open-source versions of the Saxon XSLT 3.0, XQuery 3.1, and XPath 3.1 processor for Java)
 
