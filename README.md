@@ -1,16 +1,13 @@
 # XML-with-Java
-This is a project to practice XML, XSLT, XPATH, DTD, XSD, DOM, SAX, their parsing and integration with Java to transform XML data to various types/files.
+This is a console application project based on Electronic Products XML data. It can validate, style, transform, query data from database.
 
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap">
 <div align="center">
-  <img src="image/1_order.png?raw=true" width="90%" height="auto"/>
-  <img src="image/2_my_orders.png?raw=true" width="45%" height="auto"/>
-  <img src="image/3_invoiced.png?raw=true" width="45%" height="auto"/>
-  <img src="image/4_order_details_add_assessment.png?raw=true" width="45%" height="auto"/>
-  <img src="image/5_order_details_get_assessment.png?raw=true" width="45%" height="auto"/>
-  <img src="image/6_add_transport.png?raw=true" width="90%" height="auto"/>
+  <img src="image/1_console.png?raw=true" width="90%" height="auto"/>
+  <img src="image/2_computers_html.png?raw=true" width="45%" height="auto"/>
+  <img src="image/3_computers_html.png?raw=true" width="45%" height="auto"/>
 </div>
 </div>
 
