@@ -1,0 +1,35 @@
+// XQuery - Select Nodes From Postgres database table with XQuery FLWOR
+xquery version "3.0";
+
+import module namespace sqlx = "http://basex.org/modules/sqlx";
+
+let $conn := sqlx:connect("postgresql://localhost:5432/myXML", "postgres", null)
+let $query := "SELECT * FROM computer_parts"
+let $product := sqlx:query($conn, $query)
+
+
+1. // List all products’ names.
+doc($product)/category/products/product/name/text()
+
+
+2. // List all manufacturer’s names (without duplication).
+let $query := "SELECT DISTINCT * FROM computer_parts"
+doc($product)/category/products/product/name/text()
+
+
+3. // List all products with a price lower than a given X.
+for $x in doc($product)/category/products/product/price
+where $x/amount>X
+return $x/amount
+
+
+4. // List all products with available amount less than a given X.
+for $x in doc($product)/category/products/product
+where $x/availability<X
+return $x/availability
+
+
+5. // List all “on sale” products.
+for $x in doc($product)/category/products/product
+where $x/onSales='Y'
+return $x/onSales

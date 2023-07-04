@@ -24,6 +24,10 @@ To get started with this project, follow these steps:
 - Console window will be opened.
 - you can play around with this interactive console to retrieve all inventories or by their parameters;
 
+## Running application
+- open ReadXMLWithSAX class and run main method, and interact with console. OR
+- open your terminal and from root project directory run: mvn exec:java -Dexec.mainClass="net.sf.saxon.Transform" -Dexec.args="-s:src/main/resources/computer_parts.xml -xsl:src/main/resources/computer_parts_transform_1_util.xsl -o:outputTEST2.html"
+
 ## Features
 This project includes the following features:
 
@@ -37,6 +41,8 @@ This project was built using the following technologies:
 - Java 17.0.2 (Servlets, Filters, Listeners)
 - XML, XSLT, XPATH, DTD, XSD, DOM, SAX
 - Maven
+- BaseX (XML database engine and a highly compliant XQuery 3.1 processor)
+- Saxon-HE (open-source versions of the Saxon XSLT 3.0, XQuery 3.1, and XPath 3.1 processor for Java)
 
 ## Authors
 
