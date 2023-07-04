@@ -1,16 +1,13 @@
-# XML-with-Java
-This is a project to practice XML, XSLT, XPATH, DTD, XSD, DOM, SAX, their parsing and integration with Java to transform XML data to various types/files.
+# Electronic-Products-console-app-XML
+This is a console application project based on Electronic Products XML data. It can validate, style, transform, query data from database.
 
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap">
 <div align="center">
-  <img src="image/1_order.png?raw=true" width="90%" height="auto"/>
-  <img src="image/2_my_orders.png?raw=true" width="45%" height="auto"/>
-  <img src="image/3_invoiced.png?raw=true" width="45%" height="auto"/>
-  <img src="image/4_order_details_add_assessment.png?raw=true" width="45%" height="auto"/>
-  <img src="image/5_order_details_get_assessment.png?raw=true" width="45%" height="auto"/>
-  <img src="image/6_add_transport.png?raw=true" width="90%" height="auto"/>
+  <img src="image/1_console.png?raw=true" width="90%" height="auto"/>
+  <img src="image/2_computers_html.png?raw=true" width="45%" height="auto"/>
+  <img src="image/3_computers_html.png?raw=true" width="45%" height="auto"/>
 </div>
 </div>
 
@@ -33,6 +30,7 @@ This project includes the following features:
 
 - Validate XML file with DTD or XSD.
 - Transform content data of XML file into separate Text file using XSLT.
+- XQuery data from Postgresql.
 
 
 ## Technologies Used
@@ -41,6 +39,7 @@ This project was built using the following technologies:
 - Java 17.0.2 (Servlets, Filters, Listeners)
 - XML, XSLT, XPATH, DTD, XSD, DOM, SAX
 - Maven
+- Postgresql
 - BaseX (XML database engine and a highly compliant XQuery 3.1 processor)
 - Saxon-HE (open-source versions of the Saxon XSLT 3.0, XQuery 3.1, and XPath 3.1 processor for Java)
 

@@ -72,4 +72,23 @@ public class ConsoleController {
         return result;
     }
 
+    public static Integer getOptionNumber() throws IOException {
+        System.out.println("Welcome to XML console application!");
+        System.out.println("Please, select option number from menu list:");
+        System.out.println("" +
+                "[1] - Insert xml file name\n" +
+                "    - Validate XML against XSD\n" +
+                "[2] - Transform XML into plain text file\n" +
+                "[3] - 1. Insert XPath names\n" +
+                "    - 2. Transform XML into plain text files based on Xpath\n" +
+                "[4] - 1. Insert XSL file name\n" +
+                "    - 2. Transform XML into plain text files based on XSL\n" +
+                "[5] - XQuery data from Postgresql DB"
+        );
+
+        BufferedReader reader = new BufferedReader(
+                new InputStreamReader(System.in));
+        Integer input = Integer.valueOf(reader.readLine());
+        return input;
+    }
 }
