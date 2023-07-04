@@ -1,0 +1,86 @@
+// XQuery - Select Nodes From Postgres database table with XQuery FLWOR
+xquery version "3.0";
+
+import module namespace sqlx = "http://basex.org/modules/sqlx";
+
+let $conn := sqlx:connect("postgresql://localhost:5432/myXML", "postgres", null)
+let $query := "SELECT * FROM computer_parts"
+let $product := sqlx:query($conn, $query)
+
+
+1. // List all products’ names.
+return
+  <products>
+  {
+    for $row in $product//row
+    return
+      <product>
+      {
+        for $col in $row/category/products/product/name
+        return element {name($col)} {$col/text()}
+      }
+      </product>
+  }
+  </products>
+
+2. // List all manufacturer’s names (without duplication).
+let $query := "SELECT DISTINCT * FROM computer_parts"
+return
+  <products>
+  {
+    for $row in $product//row
+    return
+      <product>
+      {
+        for $col in $row/category/products/product/name
+        return element {name($col)} {$col/text()}
+      }
+      </product>
+  }
+  </products>
+
+List all products with a price lower than a given X.
+return
+  <products>
+  {
+    for $row in $product//row
+    return
+      <product>
+      {
+        for $col in $row/category/products/product/price/amount[. < X]
+        return element {name($col)} {$col/text()}
+      }
+      </product>
+  }
+  </products>
+
+List all products with available amount less than a given X.
+return
+  <products>
+  {
+    for $row in $product//row
+    return
+      <product>
+      {
+        for $col in $row/category/products/product/availability[. < X]
+        return element {name($col)} {$col/text()}
+      }
+      </product>
+  }
+  </products>
+
+List all “on sale” products.
+let $query := "SELECT DISTINCT * FROM computer_parts"
+return
+  <products>
+  {
+    for $row in $product//row
+    return
+      <product>
+      {
+        for $col in $row/category/products/product/onSales[.='Y']
+        return element {name($col)} {$col/text()}
+      }
+      </product>
+  }
+  </products>

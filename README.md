@@ -41,6 +41,8 @@ This project was built using the following technologies:
 - Java 17.0.2 (Servlets, Filters, Listeners)
 - XML, XSLT, XPATH, DTD, XSD, DOM, SAX
 - Maven
+- BaseX (XML database engine and a highly compliant XQuery 3.1 processor)
+- Saxon-HE (open-source versions of the Saxon XSLT 3.0, XQuery 3.1, and XPath 3.1 processor for Java)
 
 ## Authors
 

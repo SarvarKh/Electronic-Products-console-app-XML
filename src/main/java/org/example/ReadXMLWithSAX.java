@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.controller.ConsoleController;
+import org.example.dao.XQueryCategoryDAO;
 import org.example.service.XMLService;
 
 import java.util.List;
@@ -32,6 +33,9 @@ public class ReadXMLWithSAX {
 
         // 5.2 Transform XML into plain text files based on XSL
         XMLService.transformXMLtoAnotherFileBasedOnXSL(xslFileName);
+
+        // 6. XQuery data from Postgresql DB
+//        XQueryCategoryDAO.getCategories();
 
         System.out.println("Ending application...\n-=-=-=-=-*****-=-=-=-=-");
     }
